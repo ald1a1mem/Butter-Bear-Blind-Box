@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" type="image/png" href="https://github.com/ald1a1mem.png">
-<title>MIIM x ALPHA DRIVE ONE 平衡遊戲 EP.1</title>
+<title>奶油小熊開箱盲盒</title>
 
 <style>
 body { background: #111; color: white; text-align: center; font-family: sans-serif; margin: 0; overflow-x: hidden; }
@@ -81,7 +81,7 @@ body { background: #111; color: white; text-align: center; font-family: sans-ser
 
 <body>
 
-<div id="title">MIIM x ALPHA DRIVE ONE 平衡遊戲 EP.1</div>
+<div id="title">奶油小熊開箱盲盒</div>
 
 <div id="top-controls">
   <div id="subtitle-controls">
@@ -133,7 +133,7 @@ body { background: #111; color: white; text-align: center; font-family: sans-ser
 
 <script>
 // 以後做別部影片，你只需要修改這裡的 YouTube ID 即可！鑰匙會自動切換。
-const videoId = "8JUy8fcPo_k";
+const videoId = "7RDpp62iSMo";
 let player = null;
 let danmakuEnabled = true;
 let lastCheckedTime = 0;
@@ -143,62 +143,46 @@ let selectedColor = "#FFFFFF";
 
 // 傳統官方翻譯字幕
 const subtitles = [
-  { time: 0, text: "LEO：向大家問好  ONE DESTINY\nDRIVE TO THE TOP" },
-  { time: 2, text: "大家好，我們是 ALPHA DRIVE ONE" },
-  { time: 4, text: "LEO：LEO" },
-  { time: 5, text: "JUNSEO：JUNSEO\nSANGWON：SANGWON" },
-  { time: 6, text: "SANGHYEON：SANGHYEON" },
-  { time: 9, text: "LEO：今天要做一些非常有趣的事" },
-  { time: 12, text: "JUNSEO：有什麼好玩的呢？\nSANGHYEON：是什麼？" },
-  { time: 14, text: "LEO：準確地說是什麼呢？\nJUNSEO：那就是" },
-  { time: 15, text: "JUNSEO：平衡遊戲" },
-  { time: 18, text: "JUNSEO：大家玩過很多次平衡遊戲 對吧？" },
-  { time: 21, text: "JUNSEO：其實每次在做選擇的時候" },
-  { time: 23, text: "JUNSEO：也會聊到很多八卦和各種TMI" },
-  { time: 25, text: "JUNSEO：來解答各種粉絲們好奇的問題" },
-  { time: 27, text: "JUNSEO：成為一種很有趣的遊戲" },
-  { time: 29, text: "SANGHYEON：OK\nJUNSEO：我們馬上開始好嗎？" },
-  { time: 31, text: "LEO：好啊好啊" },
-  { time: 32, text: "JUNSEO：現在第一個問題是~ 哇好難呀" },
-  { time: 35, text: "[平衡遊戲 二選一]\n回歸前一天，把瀏海剪的完全不合心意 vs 回歸前一天，臉上爆一顆超大痘痘" },
-  { time: 42, text: "SANGWON：王痘" },
-  { time: 44, text: "JUNSEO：超大痘痘 這不好選啊" },
-  { time: 45, text: "SANGWON：王痘" },
-  { time: 47, text: "LEO：一、二、三" },
-  { time: 48, text: "[頭髮、頭髮、痘痘、頭髮]" },
-  { time: 50, text: "啊！瀏海" },
-  { time: 52, text: "LEO：兩個當中選瀏海" },
-  { time: 54, text: "LEO：痘痘？" },
-  { time: 55, text: "SANGHYEON：我選頭髮\nLEO：頭髮" },
-  { time: 56, text: "JUNSEO：一個人選了痘痘" },
-  { time: 57, text: "JUNSEO：真的？" },
-  { time: 58, text: "JUNSEO：臉中間長痘痘也可以忍受嗎？" },
-  { time: 61, text: "SANGHYEON：魯道夫" },
-  { time: 62, text: "SANGWON：但是 你可以遮住它" },
-  { time: 64, text: "SANGHYEON：不行" },
-  { time: 65, text: "LEO：不能遮擋\nJUNSEO：長了個大痘痘！" },
-  { time: 67, text: "SANGHYEON：只是個痘痘\nLEO：不能用化妝品" },
-  { time: 69, text: "SANGHYEON：超大的痘" },
-  { time: 70, text: "SANGWON：沒有瀏海" },
-  { time: 72, text: "JUNSEO：瀏海不行嗎？" },
-  { time: 73, text: "JUNSEO：但是瀏海要是剪壞了的話 就會這樣\n直接塌下來 變成這個樣子" },
-  { time: 76, text: "SANGWON：瀏海是我的重中之重(種子)" },
-  { time: 78, text: "JUNSEO：啊，你的種子？" },
-  { time: 80, text: "LEO：不是，我們就算把髮型弄得很帥" },
-  { time: 82, text: "LEO：造型做的再好看，只要一垂下來" },
-  { time: 85, text: "LEO：魯道夫!!" },
-  { time: 87, text: "LEO：大家的視線全部都會集中在" },
-  { time: 88, text: "LEO：魯道夫身上啊！！！" },
-  { time: 90, text: "SANGWON：就說長了顆痣不就行了(穩了)" },
-  { time: 91, text: "JUNSEO：但是要想變成魯道夫這件事" },
-  { time: 93, text: "JUNSEO：不管我往上疊加多少遮瑕膏" },
-  { time: 94, text: "JUNSEO：根本遮不住" },
-  { time: 96, text: "JUNSEO：你們懂吧？" },
-  { time: 97, text: "SANGHYEON：魯道夫(鼻)都在閃閃發光 根本藏不住" },
-  { time: 98, text: "SANGHYEON：就算在上面瘋狂厚塗遮瑕" },
-  { time: 99, text: "SANGHYEON：他在上面根本不會停止發光顯眼啊" },
-  { time: 101, text: "LEO：我覺得大家根本不會去在意你的頭髮" },
-  { time: 102, text: "SANGWON：不過 我還是堅持我的選擇" }
+  { time: 0, text: "[開箱開始～！]" },
+  { time: 2, text: "LEO | 你們想要哪一個？" },
+  { time: 3, text: "[手敲盲盒]" },
+  { time: 4, text: "[手敲盲盒]\nXINLONG | 我想要這個...熊貓！" },
+  { time: 5, text: "LEO | 我也想拿到熊貓！" },
+  { time: 6, text: "XINLONG | 真的嗎？！" },
+  { time: 7, text: "[唰]" },
+  { time: 8, text: "[別命令我，我自己會拆] "},
+  { time: 10, text: "LEO | SANGWON 先（拆拆看）" },
+  { time: 11, text: "[讚嘆聲連連]\nLEO、LONG、XIN | 喔～～～" },
+  { time: 12, text: "[此時 SANGWON 拆出了粉紅熊]" },
+  { time: 14, text: "[羨慕..]" },
+  { time: 15, text: "LEO | Okay~ 成雙成對！" },
+  { time: 16, text: "[非常期待的模樣]" },
+  { time: 17, endTime: 18,  text: "[噗呵呵..]\n[非常期待的模樣] "},
+  { time: 19, text: "XINLONG | 啊！！" },
+  { time: 20, text: "XINLONG | 喔~ "},
+  { time: 21, text: "XINLONG | 蜜蜂" },
+  { time: 22, text: "[嘻嘻]\n[像隆隆一樣可愛的蜜蜂娃娃！]" },
+  { time: 24, text: "LEO | 換我了" },
+  { time: 25, text: "[沙沙作響]" },
+  { time: 27, text: "LEO | 是兔子！！\nXINLONG | 兔子" },
+  { time: 28, text: "SANGWON | 兔子\n[把包包背得緊緊的兔子娃娃！] "},
+  { time: 30, text: "[拆出了熊貓熊]\n LEO、WON、LONG | 喔！！喔~"},
+  { time: 32, text: "[害羞]\n[嘿嘿..]\n[我朝著熊貓走去]\nWON、LONG | 熊貓"},
+  { time: 34, endTime: 36, text: "LEO | 棉花糖兔子"},
+  { time: 37, text: "LEO | 這是什麼？名字是什麼？"},
+  { time: 38, text: "LEO | 蜂蜜蜜蜂"},
+  { time: 39, text: "XINLONG | 蜂蜜蜜蜂"},
+  { time: 40, text: "LEO | 布丁熊貓"},
+  { time: 41, text: "ANXIN | 布丁熊貓...？"},
+  { time: 42, text: "LEO | 好可愛！！這個貼紙真的好可愛！"},
+  { time: 44, text: "ANXIN | 這個不錯耶"},
+  { time: 45, text: "LEO、SANGWON | 棒棒糖熊"},
+  { time: 46, text: "SANGWON、ANXIN | 棒棒糖熊"},
+  { time: 48, text: "[突然開始的 ASMR]"},
+  { time: 49, text: "ANXIN | 這個跟 LEO 哥長得一模一樣"},
+  { time: 51, text: "LEO | 跟我長得一模一樣？"},
+  { time: 52, text: "[哈哈哈哈]\n[認真..]\nLEO | 跟我長得一模一樣？"},
+  { time: 54, text: "[謝謝 Butterbear～！]"}
 ];
 
 function getStorageKey() {
