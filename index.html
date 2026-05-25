@@ -4,7 +4,81 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" type="image/png" href="https://github.com/ald1a1mem.png">
-<title>奶油小熊開箱盲盒</title>
+<title>MIIM x ALPHA DRIVE ONE 平衡遊戲 EP.1</title>
+
+<script>
+// ==========================================
+// ✨【大平台設定區】以後新影片只需改這裡！ ✨
+// ==========================================
+
+const videoId = "8JUy8fcPo_k"; // 👈 1. 換新影片時，改這裡的 YouTube ID 即可，雲端彈幕會自動切換獨立儲存！
+
+// 傳統官方翻譯字幕
+const subtitles = [
+  { time: 0, text: "LEO：向大家問好  ONE DESTINY\nDRIVE TO THE TOP" },
+  { time: 2, text: "大家好，我們是 ALPHA DRIVE ONE" },
+  { time: 4, text: "LEO：LEO" },
+  { time: 5, text: "JUNSEO：JUNSEO\nSANGWON：SANGWON" },
+  { time: 6, text: "SANGHYEON：SANGHYEON" },
+  { time: 9, text: "LEO：今天要做一些非常有趣的事" },
+  { time: 12, text: "JUNSEO：有什麼好玩的呢？\nSANGHYEON：是什麼？" },
+  { time: 14, text: "LEO：準確地說是什麼呢？\nJUNSEO：那就是" },
+  { time: 15, text: "JUNSEO：平衡遊戲" },
+  { time: 18, text: "JUNSEO：大家玩過很多次平衡遊戲 對吧？" },
+  { time: 21, text: "JUNSEO：其實每次在做選擇的時候" },
+  { time: 23, text: "JUNSEO：也會聊到很多八卦和各種TMI" },
+  { time: 25, text: "JUNSEO：來解答各種粉絲們好奇的問題" },
+  { time: 27, text: "JUNSEO：成為一種很有趣的遊戲" },
+  { time: 29, text: "SANGHYEON：OK\nJUNSEO：我們馬上開始好嗎？" },
+  { time: 31, text: "LEO：好啊好啊" },
+  { time: 32, text: "JUNSEO：現在第一個問題是~ 哇好難呀" },
+  { time: 35, text: "[平衡遊戲 二選一]\n回歸前一天，把瀏海剪的完全不合心意 vs 回歸前一天，臉上爆一顆超大痘痘" },
+  { time: 42, text: "SANGWON：王痘" },
+  { time: 44, text: "JUNSEO：超大痘痘 這不好選啊" },
+  { time: 45, text: "SANGWON：王痘" },
+  { time: 47, text: "LEO：一、二、三" },
+  { time: 48, text: "[頭髮、頭髮、痘痘、頭髮]" },
+  { time: 50, text: "啊！瀏海" },
+  { time: 52, text: "LEO：兩個當中選瀏海" },
+  { time: 54, text: "LEO：痘痘？" },
+  { time: 55, text: "SANGHYEON：我選頭髮\nLEO：頭髮" },
+  { time: 56, text: "JUNSEO：一個人選了痘痘" },
+  { time: 57, text: "JUNSEO：真的？" },
+  { time: 58, text: "JUNSEO：臉中間長痘痘也可以忍受嗎？" },
+  { time: 61, text: "SANGHYEON：魯道夫" },
+  { time: 62, text: "SANGWON：但是 你可以遮住它" },
+  { time: 64, text: "SANGHYEON：不行" },
+  { time: 65, text: "LEO：不能遮擋\nJUNSEO：長了個大痘痘！" },
+  { time: 67, text: "SANGHYEON：只是個痘痘\nLEO：不能用化妝品" },
+  { time: 69, text: "SANGHYEON：超大的痘" },
+  { time: 70, text: "SANGWON：沒有瀏海" },
+  { time: 72, text: "JUNSEO：瀏海不行嗎？" },
+  { time: 73, text: "JUNSEO：但是瀏海要是剪壞了的話 就會這樣\n直接塌下來 變成這個樣子" },
+  { time: 76, text: "SANGWON：瀏海是我的重中之重(種子)" },
+  { time: 78, text: "JUNSEO：啊，你的種子？" },
+  { time: 80, text: "LEO：不是，我們就算把髮型弄得很帥" },
+  { time: 82, text: "LEO：造型做的再好看，只要一垂下來" },
+  { time: 85, text: "LEO：魯道夫!!" },
+  { time: 87, text: "LEO：大家的視線全部都會集中在" },
+  { time: 88, text: "LEO：魯道夫身上啊！！！" },
+  { time: 90, text: "SANGWON：就說長了顆痣不就行了(穩了)" },
+  { time: 91, text: "JUNSEO：但是要想變成魯道夫這件事" },
+  { time: 93, text: "JUNSEO：不管我往上疊加多少遮瑕膏" },
+  { time: 94, text: "JUNSEO：根本遮不住" },
+  { time: 96, text: "JUNSEO：你們懂吧？" },
+  { time: 97, text: "SANGHYEON：魯道夫(鼻)都在閃閃發光 根本藏不住" },
+  { time: 98, text: "SANGHYEON：就算在上面瘋狂厚塗遮瑕" },
+  { time: 99, text: "SANGHYEON：他在上面根本不會停止發光顯眼啊" },
+  { time: 101, text: "LEO：我覺得大家根本不會去在意你的頭髮" },
+  { time: 102, text: "SANGWON：不過 我還是堅持我的選擇" }
+];
+
+// 🕒【時間軸捷徑設定】
+// 顯示文字可以自己改，秒數請一律換算成「純秒數」（例如 1分40秒 = 100秒）
+const timeLinks = [];
+
+// ==========================================
+</script>
 
 <style>
 body { background: #111; color: white; text-align: center; font-family: sans-serif; margin: 0; overflow-x: hidden; }
@@ -23,21 +97,34 @@ body { background: #111; color: white; text-align: center; font-family: sans-ser
 #subtitle { position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); font-size: 18px; font-family: "Arial Rounded MT Bold", "微軟正黑體", sans-serif; color: white; background: rgba(0,0,0,0.7); padding: 8px 14px; border-radius: 8px; white-space: pre-line; max-width: 90%; width: fit-content; pointer-events: none; z-index: 10; line-height: 1.5; }
 #exitFsBtn { display: none; background: var(--main-color); color: white; border: none; padding: 10px 18px; border-radius: 6px; cursor: pointer; font-weight: bold; font-size: 15px; height: 43px; box-sizing: border-box; }
 
-/* 底部控制列 */
-#bottom-bar { margin-top: 15px; margin-bottom: 15px; display: flex; gap: 10px; }
-#fullscreenBtn { background: var(--main-color); color: white; border: none; padding: 10px 30px; border-radius: 6px; cursor: pointer; font-weight: bold; transition: 0.3s; }
+/* 底部區塊組合 */
+#bottom-block { width: min(95vw, 640px); margin-top: 15px; margin-bottom: 35px; display: flex; flex-direction: column; align-items: center; gap: 12px; }
+
+/* 🛠️ 時間軸與全螢幕按鈕位於同一個 Y 軸 (水平列) */
+#timeline-row { width: 100%; display: flex; justify-content: space-between; align-items: center; position: relative; min-height: 40px; }
+#timeline-controls { display: flex; justify-content: flex-start; flex-wrap: wrap; gap: 10px; flex: 1; }
+
+/* 全螢幕按鈕（與時間軸在同一個 Y 軸，並精準靠右對齊） */
+#fullscreenBtn { background: var(--main-color); color: white; border: none; padding: 10px 30px; border-radius: 6px; cursor: pointer; font-weight: bold; transition: 0.3s; white-space: nowrap; margin-left: auto; }
 #fullscreenBtn:hover { filter: brightness(1.2); }
+
+/* 發送欄容器 */
+#controls-row { width: 100%; display: flex; flex-direction: column; gap: 10px; }
 
 /* --- 觀眾彈幕畫布（純顯示，不干擾點擊） --- */
 #danmaku-container { position: absolute; top: 0; left: 0; width: 100%; height: 85%; z-index: 5; overflow: hidden; pointer-events: none; }
 .danmaku-item { position: absolute; left: 100%; white-space: nowrap; color: #fff; font-weight: bold; font-family: "微軟正黑體", sans-serif; text-shadow: 1px 1px 2px #000, -1px -1px 2px #000, 1px -1px 2px #000, -1px 1px 2px #000; font-size: 20px; will-change: transform; transition: transform linear; }
 
-/* 彈幕發送欄（一般模式下在影片下方） */
-#danmaku-send-bar { margin-top: 15px; margin-bottom: 35px; display: flex; gap: 8px; width: min(95vw, 640px); align-items: center; position: relative; z-index: 20; }
+/* 彈幕發送欄 */
+#danmaku-send-bar { display: flex; gap: 8px; width: 100%; align-items: center; position: relative; z-index: 20; }
 #danmaku-input { flex: 1; padding: 12px; border-radius: 6px; border: 1px solid #444; background: #222; color: white; font-size: 15px; height: 43px; box-sizing: border-box; }
 #danmaku-input:focus { outline: none; border-color: var(--main-color); }
-#danmaku-send-bar button { background: var(--main-color); color: white; border: none; padding: 0 24px; border-radius: 6px; height: 43px; cursor: pointer; transition: 0.3s; font-weight: bold; font-size: 15px; box-sizing: border-box; }
-#danmaku-send-bar button:hover { filter: brightness(1.2); }
+#danmaku-send-bar button.send-btn { background: var(--main-color); color: white; border: none; padding: 0 24px; border-radius: 6px; height: 43px; cursor: pointer; transition: 0.3s; font-weight: bold; font-size: 15px; box-sizing: border-box; }
+#danmaku-send-bar button.send-btn:hover { filter: brightness(1.2); }
+
+/* 關閉彈幕按鈕修正樣式（發送右邊、灰色、縮小5%） */
+#toggleDanmakuBtn { background: #616060; color: white; border: none; padding: 0 15px; border-radius: 6px; height: 41px; cursor: pointer; transition: 0.3s; font-weight: bold; font-size: 14.25px; box-sizing: border-box; white-space: nowrap; }
+#toggleDanmakuBtn:hover { filter: brightness(1.2); }
 
 /* 右下角全螢幕控制組合（預設隱藏，全螢幕時啟用） */
 #fs-controls-wrapper { display: none; }
@@ -58,37 +145,132 @@ body { background: #111; color: white; text-align: center; font-family: sans-ser
 
 /* 全螢幕時，將發送欄與退出鈕組成右下角工作列 */
 #video-container:fullscreen #fs-controls-wrapper { display: flex; position: absolute; right: 20px; bottom: 20px; z-index: 20; gap: 10px; align-items: center; background: rgba(0,0,0,0.6); padding: 8px; border-radius: 8px; width: auto; max-width: 80vw; }
-#video-container:fullscreen #danmaku-send-bar { margin: 0; width: 400px; } /* 全螢幕時固定寬度避免過大 */
+#video-container:fullscreen #danmaku-send-bar { margin: 0; width: 520px; } 
 #video-container:fullscreen #exitFsBtn { display: block; }
 
 @media (max-width: 768px) {
   #title { font-size: 18px; padding: 0 15px; margin-top: 18px; margin-bottom: 18px; }
   #video-container { width: 100vw; border-radius: 0; }
   #subtitle { font-size: 15px; bottom: 14px; max-width: 92%; padding: 6px 10px; }
-  #subtitle-controls button, #fullscreenBtn, #danmaku-send-bar button, #exitFsBtn { font-size: 14px; padding: 8px 14px; }
+  #subtitle-controls button, #fullscreenBtn, #danmaku-send-bar button, #exitFsBtn, #toggleDanmakuBtn { font-size: 14px; padding: 8px 14px; }
   .danmaku-item { font-size: 16px; }
-  #danmaku-send-bar { width: 100vw; padding: 0 10px; box-sizing: border-box; }
+  #bottom-block { width: 100vw; padding: 0 10px; box-sizing: border-box; }
+  #timeline-row { justify-content: center; flex-wrap: wrap; gap: 10px; }
+  #fullscreenBtn { margin-left: 0; width: 100%; } 
   #danmaku-input { padding: 10px; font-size: 14px; height: 38px; }
   #color-icon-btn { width: 38px; height: 38px; font-size: 18px; }
-  #danmaku-send-bar button, #exitFsBtn { height: 38px; }
+  #danmaku-send-bar button.send-btn, #exitFsBtn { height: 38px; }
+  #toggleDanmakuBtn { height: 38px; font-size: 13.3px; padding: 0 10px; }
   
   /* 手機全螢幕時的微調 */
-  #video-container:fullscreen #danmaku-send-bar { width: 220px; }
+  #video-container:fullscreen #danmaku-send-bar { width: 280px; }
   #video-container:fullscreen #fs-controls-wrapper { right: 10px; bottom: 10px; padding: 4px; }
 }
 </style>
+
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+  import { getDatabase, ref, push, onValue, remove } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-database.js";
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyB6lkkyzcxepYYq7rNMgBVnvRuLZwCQCXI",
+    authDomain: "my-danmaku-video.firebaseapp.com",
+    databaseURL: "https://my-danmaku-video-default-rtdb.firebaseio.com",
+    projectId: "my-danmaku-video",
+    storageBucket: "my-danmaku-video.firebasestorage.app",
+    messagingSenderId: "354012667143",
+    appId: "1:354012667143:web:2fc90abdf88c1315ab79a2"
+  };
+
+  const ADMIN_PASSWORD = "hilk12349810307"; 
+
+  // 初始化 Firebase 並動態綁定最上方的 videoId 建立獨立雲端路徑
+  const app = initializeApp(firebaseConfig);
+  const db = getDatabase(app);
+  const dbRef = ref(db, "danmakus_" + videoId);
+
+  window.userDanmakus = [];
+
+  // 即時監聽雲端資料庫變動
+  onValue(dbRef, (snapshot) => {
+    const data = snapshot.val();
+    window.userDanmakus = [];
+    if (data) {
+      Object.keys(data).forEach(id => {
+        window.userDanmakus.push({ id, ...data[id] });
+      });
+    }
+  });
+
+  // 發送彈幕到雲端
+  window.sendAndSaveDanmaku = function() {
+    const inputField = document.getElementById("danmaku-input");
+    const text = inputField.value.trim();
+    
+    if (text !== "" && player && typeof player.getCurrentTime === 'function') {
+      const currentVideoTime = player.getCurrentTime();
+      const randomTop = Math.floor(Math.random() * 63) + 12;
+      
+      const newDanmaku = {
+        videoTime: currentVideoTime, 
+        text: text,                  
+        top: randomTop,
+        color: window.selectedColor || "#FFFFFF"
+      };
+      
+      push(dbRef, newDanmaku);
+      inputField.value = "";
+    }
+  }
+
+  // 🔒【F12 專用高級管理指令系統】🔒
+  // 1. 清空本影片全部彈幕指令：cleanAll('你的密碼')
+  window.cleanAll = function(password) {
+    if (password !== ADMIN_PASSWORD) {
+      console.error("❌ 密碼錯誤，拒絕執行清空動作。");
+      return;
+    }
+    if (confirm("確定要清空這部影片的所有雲端彈幕嗎？此動作無法復原！")) {
+      remove(dbRef)
+        .then(() => console.log("💪 [成功] 雲端資料庫已完成一鍵清空！"))
+        .catch(err => console.error("清空失敗：", err));
+    }
+  };
+
+  // 2. 刪除指定秒數附近的彈幕指令：cleanTime('你的密碼', 秒數)
+  window.cleanTime = function(password, targetSecond) {
+    if (password !== ADMIN_PASSWORD) {
+      console.error("❌ 密碼錯誤，拒絕執行刪除動作。");
+      return;
+    }
+    if (!window.userDanmakus || window.userDanmakus.length === 0) {
+      console.log("ℹ️ 目前雲端沒有任何彈幕資料。");
+      return;
+    }
+    
+    let deleteCount = 0;
+    window.userDanmakus.forEach(dan => {
+      // 容許正負 0.6 秒的些微時間誤差，精準移除該時間點的所有彈幕
+      if (Math.abs(dan.videoTime - targetSecond) <= 0.6) {
+        const itemRef = ref(db, `danmakus_${videoId}/${dan.id}`);
+        remove(itemRef);
+        deleteCount++;
+      }
+    });
+    console.log(`💪 [成功] 已移除時間落在 ${targetSecond} 秒附近的 ${deleteCount} 條雲端彈幕！`);
+  };
+</script>
 </head>
 
 <body>
 
-<div id="title">奶油小熊開箱盲盒</div>
+<div id="title">MIIM x ALPHA DRIVE ONE 平衡遊戲 EP.1</div>
 
 <div id="top-controls">
   <div id="subtitle-controls">
     <button onclick="changeFontSize(2)">放大</button>
     <button onclick="changeFontSize(-2)">縮小</button>
     <button onclick="resetFontSize()">復原</button>
-    <button onclick="toggleDanmaku()" id="toggleDanmakuBtn">關閉彈幕</button>
   </div>
 </div>
 
@@ -105,99 +287,46 @@ body { background: #111; color: white; text-align: center; font-family: sans-ser
     </div>
   </div>
   
-  <div id="bottom-bar">
-    <button id="fullscreenBtn" onclick="enterFullScreen()">全螢幕</button>
-  </div>
+  <div id="bottom-block">
+    
+    <div id="timeline-row">
+      <div id="timeline-controls"></div>
+      <button id="fullscreenBtn" onclick="enterFullScreen()">全螢幕</button>
+    </div>
 
-  <div id="danmaku-send-bar">
-    <div id="color-picker-wrapper">
-      <div id="color-icon-btn" onclick="toggleColorMenu(event)">🎨</div>
-      <div id="color-menu">
-        <div class="color-dot active" style="background: #FFFFFF;" onclick="selectDanmakuColor('#FFFFFF', this)"></div>
-        <div class="color-dot" style="background: #A51D24;" onclick="selectDanmakuColor('#A51D24', this)"></div>
-        <div class="color-dot" style="background: #e27602;" onclick="selectDanmakuColor('#e27602', this)"></div>
-        <div class="color-dot" style="background: #FAC03D;" onclick="selectDanmakuColor('#FAC03D', this)"></div>
-        <div class="color-dot" style="background: #3D6036;" onclick="selectDanmakuColor('#3D6036', this)"></div>
-        <div class="color-dot" style="background: #5698c3;" onclick="selectDanmakuColor('#5698c3', this)"></div>
-        <div class="color-dot" style="background: #815C94;" onclick="selectDanmakuColor('#815C94', this)"></div>
-        <div class="color-dot" style="background: #000000;" onclick="selectDanmakuColor('#000000', this)"></div>
-        <div class="color-dot" style="background: #a0a3a4;" onclick="selectDanmakuColor('#a0a3a4', this)"></div>
-        <div class="color-dot" style="background: #694B3C;" onclick="selectDanmakuColor('#694B3C', this)"></div>
+    <div id="controls-row">
+      <div id="danmaku-send-bar">
+        <div id="color-picker-wrapper">
+          <div id="color-icon-btn" onclick="toggleColorMenu(event)">🎨</div>
+          <div id="color-menu">
+            <div class="color-dot active" style="background: #FFFFFF;" onclick="selectDanmakuColor('#FFFFFF', this)"></div>
+            <div class="color-dot" style="background: #A51D24;" onclick="selectDanmakuColor('#A51D24', this)"></div>
+            <div class="color-dot" style="background: #e27602;" onclick="selectDanmakuColor('#e27602', this)"></div>
+            <div class="color-dot" style="background: #FAC03D;" onclick="selectDanmakuColor('#FAC03D', this)"></div>
+            <div class="color-dot" style="background: #3D6036;" onclick="selectDanmakuColor('#3D6036', this)"></div>
+            <div class="color-dot" style="background: #5698c3;" onclick="selectDanmakuColor('#5698c3', this)"></div>
+            <div class="color-dot" style="background: #815C94;" onclick="selectDanmakuColor('#815C94', this)"></div>
+            <div class="color-dot" style="background: #000000;" onclick="selectDanmakuColor('#000000', this)"></div>
+            <div class="color-dot" style="background: #a0a3a4;" onclick="selectDanmakuColor('#a0a3a4', this)"></div>
+            <div class="color-dot" style="background: #694B3C;" onclick="selectDanmakuColor('#694B3C', this)"></div>
+          </div>
+        </div>
+        
+        <input type="text" id="danmaku-input" placeholder="在這裡輸入彈幕..." onkeydown="if(event.key==='Enter') sendAndSaveDanmaku()">
+        <button class="send-btn" onclick="sendAndSaveDanmaku()">發送</button>
+        
+        <button onclick="toggleDanmaku()" id="toggleDanmakuBtn">關閉彈幕</button>
       </div>
     </div>
-    
-    <input type="text" id="danmaku-input" placeholder="在這裡輸入彈幕..." onkeydown="if(event.key==='Enter') sendAndSaveDanmaku()">
-    <button onclick="sendAndSaveDanmaku()">發送</button>
+
   </div>
 </div>
 
 <script>
-// 以後做別部影片，你只需要修改這裡的 YouTube ID 即可！鑰匙會自動切換。
-const videoId = "7RDpp62iSMo";
 let player = null;
 let danmakuEnabled = true;
 let lastCheckedTime = 0;
-
-let userDanmakus = [];
-let selectedColor = "#FFFFFF";
-
-// 傳統官方翻譯字幕
-const subtitles = [
-  { time: 0, text: "[開箱開始～！]" },
-  { time: 2, text: "LEO | 你們想要哪一個？" },
-  { time: 3, text: "[手敲盲盒]" },
-  { time: 4, text: "[手敲盲盒]\nXINLONG | 我想要這個...熊貓！" },
-  { time: 5, text: "LEO | 我也想拿到熊貓！" },
-  { time: 6, text: "XINLONG | 真的嗎？！" },
-  { time: 7, text: "[唰]" },
-  { time: 8, text: "[別命令我，我自己會拆] "},
-  { time: 10, text: "LEO | SANGWON 先（拆拆看）" },
-  { time: 11, text: "[讚嘆聲連連]\nLEO、LONG、XIN | 喔～～～" },
-  { time: 12, text: "[此時 SANGWON 拆出了粉紅熊]" },
-  { time: 14, text: "[羨慕..]" },
-  { time: 15, text: "LEO | Okay~ 成雙成對！" },
-  { time: 16, text: "[非常期待的模樣]" },
-  { time: 17, endTime: 18,  text: "[噗呵呵..]\n[非常期待的模樣] "},
-  { time: 19, text: "XINLONG | 啊！！" },
-  { time: 20, text: "XINLONG | 喔~ "},
-  { time: 21, text: "XINLONG | 蜜蜂" },
-  { time: 22, text: "[嘻嘻]\n[像隆隆一樣可愛的蜜蜂娃娃！]" },
-  { time: 24, text: "LEO | 換我了" },
-  { time: 25, text: "[沙沙作響]" },
-  { time: 27, text: "LEO | 是兔子！！\nXINLONG | 兔子" },
-  { time: 28, text: "SANGWON | 兔子\n[把包包背得緊緊的兔子娃娃！] "},
-  { time: 30, text: "[拆出了熊貓熊]\n LEO、WON、LONG | 喔！！喔~"},
-  { time: 32, text: "[害羞]\n[嘿嘿..]\n[我朝著熊貓走去]\nWON、LONG | 熊貓"},
-  { time: 34, endTime: 36, text: "LEO | 棉花糖兔子"},
-  { time: 37, text: "LEO | 這是什麼？名字是什麼？"},
-  { time: 38, text: "LEO | 蜂蜜蜜蜂"},
-  { time: 39, text: "XINLONG | 蜂蜜蜜蜂"},
-  { time: 40, text: "LEO | 布丁熊貓"},
-  { time: 41, text: "ANXIN | 布丁熊貓...？"},
-  { time: 42, text: "LEO | 好可愛！！這個貼紙真的好可愛！"},
-  { time: 44, text: "ANXIN | 這個不錯耶"},
-  { time: 45, text: "LEO、SANGWON | 棒棒糖熊"},
-  { time: 46, text: "SANGWON、ANXIN | 棒棒糖熊"},
-  { time: 48, text: "[突然開始的 ASMR]"},
-  { time: 49, text: "ANXIN | 這個跟 LEO 哥長得一模一樣"},
-  { time: 51, text: "LEO | 跟我長得一模一樣？"},
-  { time: 52, text: "[哈哈哈哈]\n[認真..]\nLEO | 跟我長得一模一樣？"},
-  { time: 54, text: "[謝謝 Butterbear～！]"}
-];
-
-function getStorageKey() {
-  return "danmakus_" + videoId;
-}
-
-function loadDanmakus() {
-  const saved = localStorage.getItem(getStorageKey());
-  if (saved) { userDanmakus = JSON.parse(saved); } 
-  else { userDanmakus = []; saveDanmakus(); }
-}
-
-function saveDanmakus() {
-  localStorage.setItem(getStorageKey(), JSON.stringify(userDanmakus));
-}
+window.selectedColor = "#FFFFFF";
 
 var tag = document.createElement('script');
 tag.src = "https://www.youtube.com/iframe_api";
@@ -221,7 +350,6 @@ function onYouTubeIframeAPIReady() {
 }
 
 function onPlayerReady(event) {
-  loadDanmakus(); 
   setInterval(videoLoop, 200); 
 }
 
@@ -231,8 +359,8 @@ function videoLoop() {
   
   updateSubtitle(currentTime);
   
-  if (danmakuEnabled && player.getPlayerState() === 1) { 
-    userDanmakus.forEach(dan => {
+  if (danmakuEnabled && player.getPlayerState() === 1 && window.userDanmakus) { 
+    window.userDanmakus.forEach(dan => {
       if (currentTime >= dan.videoTime && lastCheckedTime < dan.videoTime) {
         renderDanmakuItem(dan.text, dan.top, dan.color || "#FFFFFF"); 
       }
@@ -263,7 +391,7 @@ function toggleColorMenu(event) {
 }
 
 function selectDanmakuColor(color, element) {
-  selectedColor = color;
+  window.selectedColor = color;
   const dots = document.querySelectorAll('.color-dot');
   dots.forEach(dot => dot.classList.remove('active'));
   element.classList.add('active');
@@ -274,29 +402,6 @@ document.addEventListener("click", function() {
   const menu = document.getElementById("color-menu");
   if (menu) menu.style.display = "none";
 });
-
-function sendAndSaveDanmaku() {
-  const inputField = document.getElementById("danmaku-input");
-  const text = inputField.value.trim();
-  
-  if (text !== "" && player && typeof player.getCurrentTime === 'function') {
-    const currentVideoTime = player.getCurrentTime();
-    const randomTop = Math.floor(Math.random() * 63) + 12;
-    
-    const newDanmaku = {
-      videoTime: currentVideoTime, 
-      text: text,                  
-      top: randomTop,
-      color: selectedColor
-    };
-    
-    userDanmakus.push(newDanmaku);
-    saveDanmakus();
-    
-    renderDanmakuItem(text, randomTop, selectedColor);
-    inputField.value = "";
-  }
-}
 
 function renderDanmakuItem(text, topPosition, itemColor) {
   const container = document.getElementById("danmaku-container");
@@ -348,28 +453,39 @@ function updateDisplayedFontSize() {
 function changeFontSize(delta) { currentFontSize += delta; updateDisplayedFontSize(); }
 function resetFontSize() { currentFontSize = 18; updateDisplayedFontSize(); }
 
-// 監聽全螢幕切換事件，動態搬移發送欄
 function onFullscreenChange() {
   const sendBar = document.getElementById("danmaku-send-bar");
   const fsWrapper = document.getElementById("fs-controls-wrapper");
-  const videoWrapper = document.getElementById("video-wrapper");
   const exitBtn = document.getElementById("exitFsBtn");
 
   if (document.fullscreenElement) {
-    // 進入全螢幕：將發送欄移入全螢幕組合包內，排在退出按鈕前面（左邊）
     fsWrapper.insertBefore(sendBar, exitBtn);
   } else {
-    // 退出全螢幕：將發送欄放回原本影片下方的外層結構中
-    videoWrapper.appendChild(sendBar);
+    const controlsRow = document.getElementById("controls-row");
+    controlsRow.appendChild(sendBar);
+    
+    if (screen.orientation && typeof screen.orientation.unlock === 'function') {
+      screen.orientation.unlock();
+    }
   }
   updateDisplayedFontSize();
 }
 
 function enterFullScreen() {
   const elem = document.getElementById("video-container");
-  if (elem.requestFullscreen) { elem.requestFullscreen(); }
-  else if (elem.webkitRequestFullscreen) { elem.webkitRequestFullscreen(); }
+  
+  let req = elem.requestFullscreen || elem.webkitRequestFullscreen;
+  if (req) {
+    Promise.resolve(req.call(elem)).then(() => {
+      if (screen.orientation && typeof screen.orientation.lock === 'function') {
+        screen.orientation.lock('landscape').catch(err => {
+          console.log("螢幕旋轉鎖定失敗：", err);
+        });
+      }
+    }).catch(err => console.log("進入全螢幕失敗：", err));
+  }
 }
+
 function exitFullScreen() {
   if (document.exitFullscreen) { document.exitFullscreen(); }
   else if (document.webkitExitFullscreen) { document.webkitExitFullscreen(); }
@@ -377,7 +493,36 @@ function exitFullScreen() {
 
 document.addEventListener('fullscreenchange', onFullscreenChange);
 document.addEventListener('webkitfullscreenchange', onFullscreenChange);
-</script>
 
+function jumpToTime(seconds) {
+  if (player && typeof player.seekTo === 'function') {
+    player.seekTo(seconds, true);
+    if (player.getPlayerState() !== 1) player.playVideo();
+  } else {
+    alert("影片播放器尚未準備就緒，請稍候再試！");
+  }
+}
+
+function initTimelineButtons() {
+  const container = document.getElementById("timeline-controls");
+  if (!container || !timeLinks || timeLinks.length === 0) return;
+  container.innerHTML = "";
+  timeLinks.forEach(link => {
+    const btn = document.createElement("button");
+    btn.innerText = link.label;
+    btn.style.cssText = "background: var(--main-color); color: white; border: none; padding: 10px 30px; border-radius: 6px; cursor: pointer; transition: 0.3s; font-weight: bold; font-size: 15px;";
+    btn.onmouseover = () => btn.style.filter = "brightness(1.2)";
+    btn.onmouseout = () => btn.style.filter = "brightness(1)";
+    btn.onclick = () => jumpToTime(link.seconds);
+    container.appendChild(btn);
+  });
+}
+
+const originalOnPlayerReady = onPlayerReady;
+onPlayerReady = function(event) {
+  if (typeof originalOnPlayerReady === 'function') originalOnPlayerReady(event);
+  initTimelineButtons();
+};
+</script>
 </body>
 </html>
